@@ -44,7 +44,7 @@ Before we begin to sum the total water volume of the collector, it is important 
 Instead of summing the volume vertically we will think about how much volume exists in a horizontal plane at each incremental height. The solution below goes about this by starting at the highest 'peak' and and summing the total amount of volume at that level then decrementing the height by one and repeating the process until a height of 0 is reached. This produces an `O(n*a)` solution (`n` is the size of the array, `a` is the maximum number in the array). See individual comments to better understand the solution.
 
 ```js
-/* For Loop */
+/* For Loop Solution*/
 function calWaterVol(blocks) {
   let water = 0;
   let peak = Math.max(...blocks);
@@ -69,7 +69,7 @@ function calWaterVol(blocks) {
 ```
 
 ```js
-/* While Loop */
+/* While Loop Solution*/
 /* the 'totalVol' function will find the 'peak'
 of the collection array then sum the volume
 at each subsequent level util the 'ground'
