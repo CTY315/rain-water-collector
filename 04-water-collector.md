@@ -215,8 +215,8 @@ function calWaterVolOptimized(blocks) {
 }
 ```
 
+same approach, but More optimezed code with less space used
 ```js
-/*More optimezed with less space used*/
 function rainCollector(blocks) {
   const rightMaxes = [];
   let rightMax = 0;
