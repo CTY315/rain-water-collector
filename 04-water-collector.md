@@ -69,7 +69,7 @@ function calWaterVol(blocks) {
 ```
 
 ```js
-/* While Loop Solution*/
+/* Seperate function Solution*/
 /* the 'totalVol' function will find the 'peak'
 of the collection array then sum the volume
 at each subsequent level util the 'ground'
